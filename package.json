@@ -1,0 +1,15 @@
+{
+  "name": "llm-eval-framework",
+  "version": "1.0.0",
+  "description": "LLM evaluation framework with automated scoring and CI quality gates, built on Cloudflare Workers AI",
+  "type": "module",
+  "scripts": {
+    "eval": "tsx src/runner.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0",
+    "@types/node": "^20.11.0"
+  }
+}
